@@ -8,8 +8,12 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+
+    environment: Build
+    env:
+      NODE_ENV: development
+      ENV_EXAMPLE: ${{ secrets.ENV_EXAMPLE }} # Add or modify secrets in GitHub -> Environments / Configure Build
 
     steps:
       - uses: actions/checkout@v4
