@@ -4,7 +4,14 @@ import env from "./shared/env";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/icon",
+    "@nuxt/image",
+    "@nuxt/fonts",
+    "@vueuse/nuxt",
+    "@pinia/nuxt",
+  ],
 
   runtimeConfig: {
     public: {
