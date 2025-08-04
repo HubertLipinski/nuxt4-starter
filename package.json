@@ -30,7 +30,7 @@
     "eslint": "^9.32.0",
     "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.2"
+    "lint-staged": "^16.1.4"
   },
   "lint-staged": {
     "*": "npm run lint"
